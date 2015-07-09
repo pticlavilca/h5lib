@@ -1,0 +1,26 @@
+.row{
+  background:#fff;
+  overflow:hidden;
+  width:100%;
+}
+.col{
+  background:lightblue;
+  box-sizing: border-box; //resizing by content
+  float:left;
+  padding: 1em;
+}
+.oneCols .col{
+  width:100%;
+}
+.twoCols .col{
+  width:50%;
+}
+.threeCols .col{
+  width: 33.33%;
+}
+
+
+
+
+
+
